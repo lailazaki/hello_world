@@ -1,0 +1,29 @@
+<head>  <link rel="stylesheet" media="all" href="css/bill.css" /></head>	
+
+	<div id="wrapper">
+    <h1>Let's Split The Bill</h1>
+
+	<div id="form">
+    <form method='get' action='#' id='tipCalculator'><input type='hidden' name='form-name' value='tipCalculator' />
+      <p>
+        <label for="billAmount">Bill Amount</label>
+        $<input type="text" id="billAmount" value="" placeholder="e.g. 39.35" />
+      </p>
+      <p>
+        <label for="percentageToTip">Percentage to Tip</label>
+        <input type="text" id="percentageToTip" value="" placeholder="e.g. 15" />%
+      </p>
+      <p>
+        <label for="numberOfPeople">Number of People</label>
+        <input type="text" id="numberOfPeople" value="" placeholder="e.g. 3" />
+      </p>
+      <p>
+        <button type="submit">Calculate!</button>
+      </p>
+    </form>
+
+    <strong>Each Person Should Pay</strong>
+    <div id="amountEachPersonShouldPay">
+    </div>
+    </div>
+    </div>

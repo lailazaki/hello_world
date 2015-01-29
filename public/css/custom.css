@@ -1,0 +1,174 @@
+
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Helvetica', 'Arial', 'sans-serif';
+	background-color: #fff;
+	color: #000;
+}
+
+header {
+	color: red;
+	font-size: 3em;
+}
+
+h1 {
+	font-size: 55px;
+	margin: 15px 0;
+}
+
+h2 {
+	font-size: 27px;
+	margin: 7px 0;
+}
+
+p {
+	font-size: 16px;
+	opacity:0.8;
+	margin: 0 0 10px 0;
+}
+
+section {
+	color: white;
+	width: 850px;
+	height: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.name {
+	background:url(../img/yellow-bg2.jpg) 50% 0% no-repeat;
+}
+
+.bg {
+	background:url(../img/head1.png) 50% 0% no-repeat fixed;
+}
+
+.skills {
+	background: url(../img/skills-bg.jpg) 50% 0% no-repeat;
+}
+
+.bg-skills {
+	background: url(../img/skills1.png) 50% 0% no-repeat fixed;
+	position: relative;
+}
+
+.break {
+	margin: 0 auto;
+	width:100%;
+}
+
+.break h1 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.site {
+	float: left;
+	width: 300px;
+	height: 200px;
+	background-color: #fff;
+	margin: 20px;
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+.one {top: 320px; left: 50px; background: url(../img/byebyebye.jpg) 0 0/300px 200px}
+.two {top: 320px; left: 455px; background: url(../img/mario.jpg)0 0/300px 200px}
+.three {top: 550px; left: 50px; background: url(../img/desert.jpg)0 0/300px 200px}
+.four {top: 550px; left: 455px; background: url(../img/bill.jpg)0 0/300px 200px}
+
+.about {
+	background: url(../img/about-bg.jpg) 50% 0% no-repeat;
+}
+
+.bg-about {
+	background: url(../img/about1.png) 50% 0% no-repeat fixed;
+	position: relative;
+}
+
+.bg-about p {
+	width: 650px;
+	margin: 0 auto;
+	color: white;
+	padding: 20px;
+	background-color: rgba(66, 66, 66, .3);
+	position: absolute;
+	left: 85px;
+	top: 550px;
+}
+
+.noblur{
+	background: url(../img/aust.jpg) 50% 57% no-repeat fixed;
+}
+
+.blur {
+	background: url(../img/aust2.jpg) 50% 57% no-repeat fixed;
+	margin-bottom: 0;
+}
+
+.headline {
+	overflow: auto;
+	position: relative;
+}
+
+.contact-text {
+	position: absolute;
+	left: 480px;
+	top:50%;
+	width: 300px;
+	height: 495px;
+}
+
+.contact-text p a {
+	color:#fff;
+	text-decoration: none;
+}
+
+.new {
+	font-size: 30px;
+	color: #fff;
+	text-align: center
+}
+
+.newish { color: red; text-decoration: none;}
+
+
+.byebyebye {
+	width: 100%; 
+	height: 500px; background: url(../img/byebyebye.jpg) no-repeat;
+	color: #fff;
+}
+
+.desert {	
+	width: 100%;
+	height: 500px;
+	background: url(../img/desert.jpg) no-repeat;
+	color: #fff;
+}
+
+.mario {	
+	width: 100%;
+	height: 500px;
+	background: url(../img/mario.jpg) no-repeat;
+	color: #fff;
+}
+
+.bill {	
+	width: 100%;
+	height: 500px;
+	background: url(../img/bill.jpg) no-repeat ;
+	color: #fff;
+}
+
+footer {
+	text-align: center;
+	color: red;
+	font-size: 3em;
+}
+
+
